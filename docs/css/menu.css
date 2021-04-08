@@ -281,6 +281,7 @@ section:nth-child(2n){
 	overflow: hidden;
 	transition: 0.2s;
 }
+
 .shiny-btn4:hover {
 	text-decoration: none;
 	color: #fff;
