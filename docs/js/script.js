@@ -25,7 +25,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var ytPlayer;
 function onYouTubeIframeAPIReady() {
 ytPlayer = new YT.Player('youtube', {//動画を表示させたいIDを指定
-    videoId: 'nCJFAdM9Wkk',//動画のアドレスの指定
+    videoId: 'XxDMREvuoOA',//動画のアドレスの指定
     playerVars: {
         playsinline: 1,// インライン再生を行う
         autoplay:1,//自動再生を行う
