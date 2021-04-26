@@ -11,6 +11,141 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 <link rel="stylesheet" type="text/css" href="css/menu.css">
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+	window.formbutton =
+		window.formbutton ||
+		function() {
+			(formbutton.q = formbutton.q || []).push(arguments);
+		};
+	formbutton("create", {
+		action: "https://formspree.io/xyylzqpb",
+		title: "Contact Us",
+		fields: [
+			{
+				type: "text",
+				label: "お名前:",
+				name: "name",
+				placeholder: "佐藤 花子"
+			},
+			{
+				type: "email",
+				label: "Email:",
+				name: "email",
+				placeholder: "elm-clinic@omotesando.com"
+			},
+			{
+				type: "text",
+				label: "TEL:",
+				name: "tel",
+				placeholder: "000-1111-2222"
+			},
+			// {
+			// 	type: "text",
+			// 	label: "&nbsp;",
+			// 	name: "address2",
+			// },
+			// { type: "label", label: "ご希望"},
+      //     { label: "キャンペーン1", type: "radio", name: "campaign"},
+      //     { label: "キャンペーン2", type: "radio", name: "campaign"},
+      //     { label: "キャンペーン3", type: "radio", name: "campaign"},
+      //     { label: "キャンペーン4", type: "radio", name: "campaign"},
+      //     { label: "キャンペーン5", type: "radio", name: "campaign"},
+      //     { type: "label", label: "内容"},
+      //     { label: "カウンセリング", type: "radio", name: "about"},
+      //     { label: "施術", type: "radio", name: "about"},
+      //     { label: "購入", type: "radio", name: "about"},
+          // { label: "4", type: "radio", name: "clean" },
+          // { label: "5", type: "radio", name: "clean" },
+          {
+            type: "checkbox",
+            label: "キャンペーン１に興味がある！",
+            name: "campaign_1",
+          },
+					{
+            type: "checkbox",
+            label: "キャンペーン２に興味がある！",
+            name: "campaign_2",
+          },
+					{
+            type: "checkbox",
+            label: "キャンペーン３に興味がある！",
+            name: "campaign_3",
+          },
+					{
+            type: "checkbox",
+            label: "キャンペーン４に興味がある！",
+            name: "campaign_4",
+          },
+					{
+            type: "checkbox",
+            label: "キャンペーン５に興味がある！",
+            name: "campaign_5",
+          },
+			{
+				type: "textarea",
+				label: "その他:",
+				name: "message",
+			},
+			{
+				type: "hidden",
+				label: "",
+				name: "form1",
+			},
+			// {
+			// 	type: "checkbox",
+			// 	label: "Please send me your monthly newsletter",
+			// 	name: "_optin",
+			// },
+			{ type: "submit", value: "送信" }
+		],
+		styles: {
+			fontFamily: "Montserrat",
+			modal: {
+				border: "1px solid #6D6875",
+				boxShadow: "6px 6px 0 #6D6875",
+				borderRadius: "0",
+			},
+			title: {
+				padding: "24px 24px 0px 24px",
+				background: "rgba(0,0,0,0)",
+				color: "#2e2a37",
+				fontFamily: "Marcellus SC",
+				fontSize: "2em",
+			},
+			body: {
+					padding: "16px 24px 24px",
+			},
+			field: {
+				display: "flex",
+			},
+			submitField: {
+				justifyContent: "flex-end",            
+			},
+			label: {
+				width: "40%",
+			},
+			checkboxLabel: {
+				width: "auto",
+			},
+			input: {
+				borderRight: "1px solid rgba(0,0,0,0.1)",
+				borderBottom: "1px solid rgba(0,0,0,0.1)",
+				borderRadius: "0px"
+			},
+			button: {
+				background: "white",
+				fill: "#6D6875",
+				border: "1px solid #6D6875",
+				boxShadow: "3px 3px 0px #6D6875"
+			},
+			closeButton: {
+				textShadow: "0 0 0 #2e2a37",
+			}
+		},
+		initiallyVisible: true
+	});
+</script>
 </head>
 
 <body>
@@ -48,7 +183,45 @@
 		<li><img src="img/gentlelase_pro.png" alt=""></li>
 		<li><img src="img/hair_removal.png" alt=""></li>
 		<li><img src="img/laser.png" alt=""></li>
-     </ul>
+  </ul>
+
+	<!-- <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/xyylzqpb",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    },
+    initiallyVisible: true
+  });
+</script> -->
 		 
 
 <!--/wrapper--></div>
